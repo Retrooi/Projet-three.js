@@ -6,7 +6,7 @@ import logoHistoire from './histoire.webp';
 const questionsHistoire = [
   {
     question: "En quelle année la Première guerre mondiale a-t-elle commencé ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Cheshire_Regiment_trench_Somme_1916.jpg/800px-Cheshire_Regiment_trench_Somme_1916.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/22/Cheshire_Regiment_trench_Somme_1916.jpg",
     reponses: [
       { text: "1914", correct: true },
       { text: "1918", correct: false },
@@ -16,7 +16,7 @@ const questionsHistoire = [
   },
   {
     question: "Quelle date marque le début de la Révolution française avec la prise de la Bastille ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Prise_de_la_Bastille.jpg/800px-Prise_de_la_Bastille.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Prise_de_la_Bastille.jpg",
     reponses: [
       { text: "1789", correct: true },
       { text: "1792", correct: false },
@@ -26,7 +26,7 @@ const questionsHistoire = [
   },
   {
     question: "En quelle année Christophe Colomb a-t-il découvert l'Amérique ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg/800px-Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Portrait_of_a_Man%2C_Said_to_be_Christopher_Columbus.jpg",
     reponses: [
       { text: "1453", correct: false },
       { text: "1492", correct: true },
@@ -36,7 +36,7 @@ const questionsHistoire = [
   },
   {
     question: "Quel roi de France était surnommé le « Roi-Soleil » ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Louis_XIV_of_France.jpg/800px-Louis_XIV_of_France.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/5/5f/Louis_XIV_of_France.jpg",
     reponses: [
       { text: "Henri IV", correct: false },
       { text: "Louis XIII", correct: false },
@@ -46,7 +46,7 @@ const questionsHistoire = [
   },
   {
     question: "En quelle année le mur de Berlin est-il tombé ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Berlin_Wall_1989.jpg/800px-Berlin_Wall_1989.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/df/Berlin_Wall_1989.jpg",
     reponses: [
       { text: "1961", correct: false },
       { text: "1989", correct: true },
@@ -56,7 +56,7 @@ const questionsHistoire = [
   },
   {
     question: "Quelle héroïne a aidé Charles VII lors de la guerre de Cent Ans ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Joan_of_arc_miniature_graded.jpg/800px-Joan_of_arc_miniature_graded.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/39/Joan_of_arc_miniature_graded.jpg",
     reponses: [
       { text: "Marie-Antoinette", correct: false },
       { text: "Catherine de Médicis", correct: false },
@@ -66,7 +66,7 @@ const questionsHistoire = [
   },
   {
     question: "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Apollo_11_first_step.jpg/800px-Apollo_11_first_step.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Apollo_11_first_step.jpg",
     reponses: [
       { text: "1957", correct: false },
       { text: "1961", correct: false },
@@ -76,7 +76,7 @@ const questionsHistoire = [
   },
   {
     question: "Qui a inventé l'imprimerie à caractères mobiles en Europe vers 1440 ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gutenberg_Bible_B42_Genesis.JPG/800px-Gutenberg_Bible_B42_Genesis.JPG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/33/Gutenberg_Bible_B42_Genesis.JPG",
     reponses: [
       { text: "Léonard de Vinci", correct: false },
       { text: "Johannes Gutenberg", correct: true },
@@ -86,7 +86,7 @@ const questionsHistoire = [
   },
   {
     question: "Quelle bataille a marqué la défaite définitive de Napoléon Ier en 1815 ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Battle_of_Waterloo_1815.PNG/800px-Battle_of_Waterloo_1815.PNG",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/82/Battle_of_Waterloo_1815.PNG",
     reponses: [
       { text: "Austerlitz", correct: false },
       { text: "Waterloo", correct: true },
@@ -96,7 +96,7 @@ const questionsHistoire = [
   },
   {
     question: "Pour quel événement la Tour Eiffel a-t-elle été construite ?",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/800px-Tour_Eiffel_Wikimedia_Commons.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg",
     reponses: [
       { text: "L'Exposition universelle de 1889", correct: true },
       { text: "Le centenaire de Paris", correct: false },
