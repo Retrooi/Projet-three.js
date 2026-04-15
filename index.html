@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Planificateur Ultra-Focus | Strategy Factory</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="menu-overlay" id="overlay"></div>
+    
+    <header id="header">
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">
+                    <span class="logo-icon"></span>
+                    STRATEGY FACTORY
+                </a>
+                
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home" class="nav-link active">Le Planificateur</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="content container">
+                <h2 class="sur-titre">MÉTHODE DE HAUTE PERFORMANCE</h2>
+                <h1>LE PLANIFICATEUR<br>ULTRA-FOCUS</h1>
+                <p>Reprenez le contrôle absolu de votre semaine. Ce n'est pas un simple calendrier, c'est le système de productivité utilisé par nos clients pour accomplir le double en travaillant moins.</p>
+                
+                <a href="#contact" class="btn" id="hero-btn">TÉLÉCHARGER LE FREEBIE</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container contact-wrapper fade-up">
+                
+                <div class="contact-info">
+                    <h2>Restons en contact</h2>
+                    <p>Une question sur la méthode ? Envie d'aller plus loin avec un accompagnement sur-mesure ? Discutons-en.</p>
+                    
+                    <ul class="coordonnees-list">
+                        <li><strong>Email :</strong> <a href="mailto:ton-email@example.com">ton-email@example.com</a></li>
+                        <li><strong>LinkedIn :</strong> <a href="#" target="_blank">Ton Profil LinkedIn</a></li>
+                        <li><strong>Instagram :</strong> <a href="#" target="_blank">@Strategy_Factory</a></li>
+                    </ul>
+                </div>
+
+                <div class="download-box">
+                    <h3>Passez à l'action aujourd'hui</h3>
+                    <p>Entrez vos informations ci-dessous pour recevoir votre accès immédiat au planificateur.</p>
+                    
+                    <form name="capture-prospects" method="POST" data-netlify="true" class="capture-form">
+                        <div class="input-group">
+                            <label for="prenom">Prénom</label>
+                            <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="votre@adresse.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="telephone">Téléphone</label>
+                            <input type="tel" id="telephone" name="telephone" placeholder="Votre numéro (optionnel)">
+                        </div>
+                        
+                        <button type="submit" class="btn btn-large">📥 OBTENIR MON PLANIFICATEUR</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                &copy; 2026 Strategy Factory - Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
